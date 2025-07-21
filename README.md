@@ -1,2 +1,3 @@
 # Snake-Game
 AI Plays Snake Game
+I was trying to make a snake bot that gets a very high score. At first, the bot kept crashing into walls or trapping itself after getting a little bit of food. I learned that just moving randomly or always going to the food is not enough. We used smart logic like pathfinding (BFS), checking if a move is safe, and sometimes following the tail to survive longer. The bot had to look ahead before eating to make sure it wouldn’t get stuck. We didn’t use TensorFlow or AI — just Python and smart rules. I also learned how to show the game visually and test one game at a time to see how it really played.
